@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net10.0": {
+      "NAudio.Wasapi": {
+        "type": "Direct",
+        "requested": "[3.0.0, )",
+        "resolved": "3.0.0",
+        "contentHash": "bYkBTvc9U0gCfi1p0hyNnoYeE2w2qH7U58zb9LecMhboTarw4xOKLnEfHV9XaSrnFS28SC1iG2z/lJuBMRpK/A==",
+        "dependencies": {
+          "NAudio.Core": "3.0.0"
+        }
+      },
+      "System.Numerics.Tensors": {
+        "type": "Direct",
+        "requested": "[9.0.0, )",
+        "resolved": "9.0.0",
+        "contentHash": "razlju7UgILQ/Vb7BoW1RR/xIEBDc8Ynq0sRk74KpLBHay3QMZJfgK8ly4IEzlJlbFYlCOxpdPa7DNBUYaYtIw=="
+      },
+      "NAudio.Core": {
+        "type": "Transitive",
+        "resolved": "3.0.0",
+        "contentHash": "uEX5xkjbUQ3w8XVuqcX1iMRr0avhOdn2WFiPL2X/kF72anSJSgdLhpkxCxr6N1hQr+hWx1L5lNJJeg0sh6xBiw==",
+        "dependencies": {
+          "System.Numerics.Tensors": "9.0.0"
+        }
+      }
+    },
+    "net10.0/win-x64": {}
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "vrstreamconrtent",
+  "version": "1.4.0",
+  "description": "Udostępnianie ekranu z dźwiękiem do VRChat",
+  "main": "main.cjs",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test test/*.test.cjs",
+    "build": "node scripts/build.cjs",
+    "setup": "node scripts/setup.cjs",
+    "test:capture": "electron test/capture.electron.cjs",
+    "build:audio": "node scripts/build-audio.cjs",
+    "test:live": "electron test/live-capture.electron.cjs",
+    "test:audio": "electron test/native-audio.electron.cjs",
+    "build:youtube": "node scripts/build.cjs --youtube",
+    "check:release": "node scripts/check-release.cjs --youtube"
+  },
+  "dependencies": {
+    "ffmpeg-static": "5.2.0",
+    "hls.js": "1.7.2"
+  },
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "electron": "^44.0.0"
+  },
+  "productName": "VRStreamConrtent",
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

@@ -1,0 +1,1 @@
+const {contextBridge,ipcRenderer}=require('electron');contextBridge.exposeInMainWorld('testBridge',{config:()=>ipcRenderer.invoke('test-config'),chunk:data=>ipcRenderer.invoke('test-chunk',data),finish:result=>ipcRenderer.invoke('test-finish',result)});
