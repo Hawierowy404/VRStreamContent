@@ -20,7 +20,7 @@ A Windows desktop application for sharing your screen or an application window w
 
 Find available Windows builds in [Releases](https://github.com/Hawierowy404/VRStreamContent/releases). Extract the whole ZIP and run VRStreamContent.exe. Connect your own YouTube account, choose a source and start streaming. Keep the app running during the broadcast.
 
-Enable live streaming on your YouTube channel first and wait for any activation period shown by YouTube. Google sign-in is currently limited to approved testers while public access is being prepared.
+Enable live streaming on your YouTube channel first and wait for any activation period shown by YouTube. Google verification is pending. Sign-in may show an unverified-app warning and is subject to Google's user limits.
 
 A compatible VRChat world and player are required. Latency depends on YouTube, the network and the receiving player; no exact delay is guaranteed. Anyone with an unlisted link may watch or share it.
 
