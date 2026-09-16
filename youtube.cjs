@@ -57,8 +57,8 @@ class YouTube {
    server=http.createServer((req,res)=>{
     const u=new URL(req.url,'http://127.0.0.1');res.setHeader('Content-Type','text/plain; charset=utf-8');res.setHeader('Cache-Control','no-store');
     if(req.method!=='GET'||u.pathname!=='/oauth/callback'||u.searchParams.get('state')!==state){res.writeHead(400);res.end('Invalid callback');return;}
-    if(u.searchParams.get('error')||!u.searchParams.get('code')){res.end('Sign-in cancelled. Return to VRStreamConrtent.');deny(Error('ERR_YT_LOGIN'));return;}
-    res.end('You can close this page and return to VRStreamConrtent.');accept(u.searchParams.get('code'));
+    if(u.searchParams.get('error')||!u.searchParams.get('code')){res.end('Sign-in cancelled. Return to VRStreamContent.');deny(Error('ERR_YT_LOGIN'));return;}
+    res.end('You can close this page and return to VRStreamContent.');accept(u.searchParams.get('code'));
    });
    await new Promise((resolve,reject)=>{server.once('error',reject);server.listen(0,'127.0.0.1',resolve);});
    const redirect_uri='http://127.0.0.1:'+server.address().port+'/oauth/callback';
