@@ -1,8 +1,8 @@
 ---
-title: Privacy policy and terms — VRStreamConrtent
+title: Privacy policy and terms — VRStreamContent
 ---
 
-# VRStreamConrtent — Privacy policy and terms
+# VRStreamContent — Privacy policy and terms
 
 [Back to the application](index.html)
 
@@ -10,7 +10,7 @@ Version: 2026-09-07.1. This is the English policy supplied with the application.
 
 ## Your responsibility
 
-VRStreamConrtent shares video and audio. You are responsible for your content, necessary rights, consent from people whose data or voice you share, and compliance with law and service rules, including YouTube and VRChat. Do not use the app to violate other people’s rights.
+VRStreamContent shares video and audio. You are responsible for your content, necessary rights, consent from people whose data or voice you share, and compliance with law and service rules, including YouTube and VRChat. Do not use the app to violate other people’s rights.
 
 ## Author’s liability
 
