@@ -1,6 +1,6 @@
-# VRStreamConrtent 1.0.0
+# VRStreamContent 1.0.0
 
-Rozpakuj cały ZIP i uruchom VRStreamConrtent.exe. Nie trzeba instalować Node.js, .NET, FFmpeg ani OBS.
+Rozpakuj cały ZIP i uruchom VRStreamContent.exe. Nie trzeba instalować Node.js, .NET, FFmpeg ani OBS.
 
 Wybierz język w prawym górnym rogu, ekran lub okno, jakość i dźwięk. Rozpocznij transmisję, poczekaj na link i wklej go do odtwarzacza VRChat obsługującego AVPro / Live. W razie potrzeby włącz Allow Untrusted URLs. Światy publiczne mogą blokować domeny tunelu.
 
@@ -14,7 +14,7 @@ Przy udostępnianiu całego ekranu słychać cały komputer — w tym własny od
 
 W trybie okna z dźwiękiem aplikacja losuje dodatkowe aktywne wyjście inne niż główne i przywraca poprzednie wyjście po live. Fizyczny dodatkowy głośnik nadal może być słyszalny. Jeśli nie ma dodatkowego urządzenia, przechwytywany jest tylko dźwięk aplikacji, ale lokalny odsłuch pozostaje. Niektóre aplikacje przyjmą nowe wyjście dopiero po ponownym rozpoczęciu odtwarzania.
 
-Jeżeli przywrócenie wyjścia nie powiedzie się lub źródłowa aplikacja została zamknięta, program zachowa zapis do odzyskania i pokaże komunikat. Otwórz źródłową aplikację i VRStreamConrtent ponownie albo przywróć wyjście w mikserze Windows. Ręczne zmiany miksera podczas live nie są nadpisywane.
+Jeżeli przywrócenie wyjścia nie powiedzie się lub źródłowa aplikacja została zamknięta, program zachowa zapis do odzyskania i pokaże komunikat. Otwórz źródłową aplikację i VRStreamContent ponownie albo przywróć wyjście w mikserze Windows. Ręczne zmiany miksera podczas live nie są nadpisywane.
 
 ## GitHub
 
