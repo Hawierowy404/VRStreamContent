@@ -1,4 +1,4 @@
-# VRStreamConrtent
+# VRStreamContent
 
 Windows screen/window sharing with audio, unlisted YouTube broadcasts and an optional HTTPS HLS tunnel for compatible VRChat live players. Version **1.4.0**. Languages: Polish, English, Russian, Japanese, German, French, Korean and Simplified Chinese.
 
@@ -18,7 +18,7 @@ Choose YouTube latency before starting a broadcast with the three-position slide
 
 The dark studio layout has a larger preview, violet accents and subtle animations that respect reduced-motion settings.
 
-Extract the entire Windows ZIP and run **VRStreamConrtent.exe**. End users do not need Node.js, .NET, OBS, FFmpeg or cloudflared installed separately.
+Extract the entire Windows ZIP and run **VRStreamContent.exe**. End users do not need Node.js, .NET, OBS, FFmpeg or cloudflared installed separately.
 
 Select a screen/window, quality and computer audio. Click Start streaming, wait for the stream-ready status, then paste it into a compatible VRChat player in Live / Stream mode. Viewers may need Allow Untrusted URLs; some public worlds restrict custom domains.
 
@@ -61,7 +61,7 @@ Screen capture includes all PC audio. Window capture uses Windows process-loopba
 
 With window audio enabled, the app chooses a random active output other than the main multimedia output, saves the application’s previous mixer outputs, and restores them when the live ends. It does not change the system default output. An additional physical speaker can still be audible. If no extra output exists, application-only capture remains enabled without rerouting. Some applications may need playback restarted to adopt a changed mixer output.
 
-A recovery journal handles interrupted shutdown. If the source application has already closed or Windows rejects restoration, the app reports the problem and keeps the journal. Reopen the source application and VRStreamConrtent to retry, or restore its output in Windows Volume Mixer. Manual mixer changes made during a live are preserved.
+A recovery journal handles interrupted shutdown. If the source application has already closed or Windows rejects restoration, the app reports the problem and keeps the journal. Reopen the source application and VRStreamContent to retry, or restore its output in Windows Volume Mixer. Manual mixer changes made during a live are preserved.
 
 Live support depends on the player and world. Unity players do not support this live stream. Quest compatibility requires a test in the chosen world. Not every computer, network or world can be guaranteed compatible.
 
@@ -81,7 +81,7 @@ npm start
 npm run build
 ```
 
-The result is **release/VRStreamConrtent-win32-x64**. Distribute the whole folder as a ZIP.
+The result is **release/VRStreamContent-win32-x64**. Distribute the whole folder as a ZIP.
 
 Setup downloads missing tools. The package lock fixes npm dependencies. Downloaded binaries, caches and builds are excluded from Git. The included GitHub Actions workflow tests and builds a Windows artifact on pushes, pull requests and manual runs, without repository secrets. It does not publish a release automatically.
 
