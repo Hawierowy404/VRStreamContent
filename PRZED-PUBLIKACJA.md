@@ -2,7 +2,7 @@
 
 ## Co dostaje użytkownik
 
-Cały plik ZIP Windows należy rozpakować do jednego folderu. Uruchamia się VRStreamConrtent.exe. Nie należy kopiować samego pliku EXE: obok znajdują się wymagane biblioteki. Pakiet zawiera Electron, FFmpeg i moduł dźwięku Windows. Jest przeznaczony dla Windows x64; nie jest aplikacją instalowaną na goglach Quest, macOS ani Linux.
+Cały plik ZIP Windows należy rozpakować do jednego folderu. Uruchamia się VRStreamContent.exe. Nie należy kopiować samego pliku EXE: obok znajdują się wymagane biblioteki. Pakiet zawiera Electron, FFmpeg i moduł dźwięku Windows. Jest przeznaczony dla Windows x64; nie jest aplikacją instalowaną na goglach Quest, macOS ani Linux.
 
 Nadawca wybiera Ustawienia > YouTube > Połącz z YouTube i loguje się na własne konto w przeglądarce. Hasło Google nie jest wpisywane do naszej aplikacji. Każdy użytkownik ma własny kanał i lokalnie zaszyfrowane dane logowania. Następnie wybiera tytuł i ustawienie odbiorców, źródło obrazu oraz jakość. Rozpocznij live tworzy transmisję niepubliczną, a po potwierdzeniu jej uruchomienia przycisk Kopiuj link podaje adres oglądania na YouTube.
 
