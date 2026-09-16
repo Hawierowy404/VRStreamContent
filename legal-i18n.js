@@ -2,7 +2,7 @@ const legalDocuments={
   "pl": [
     [
       "Odpowiedzialność użytkownika",
-      "VRStreamConrtent służy do udostępniania obrazu i dźwięku. Odpowiadasz za wybór treści, zgodę osób, których dane lub głos udostępniasz, posiadanie wymaganych praw oraz przestrzeganie prawa i zasad usług, w tym YouTube i VRChat. Nie używaj aplikacji do naruszania cudzych praw."
+      "VRStreamContent służy do udostępniania obrazu i dźwięku. Odpowiadasz za wybór treści, zgodę osób, których dane lub głos udostępniasz, posiadanie wymaganych praw oraz przestrzeganie prawa i zasad usług, w tym YouTube i VRChat. Nie używaj aplikacji do naruszania cudzych praw."
     ],
     [
       "Ograniczenia odpowiedzialności autora",
@@ -32,7 +32,7 @@ const legalDocuments={
   "en": [
     [
       "Your responsibility",
-      "VRStreamConrtent shares video and audio. You are responsible for your content, necessary rights, consent from people whose data or voice you share, and compliance with law and service rules, including YouTube and VRChat. Do not use the app to violate other people’s rights."
+      "VRStreamContent shares video and audio. You are responsible for your content, necessary rights, consent from people whose data or voice you share, and compliance with law and service rules, including YouTube and VRChat. Do not use the app to violate other people’s rights."
     ],
     [
       "Author’s liability",
@@ -62,7 +62,7 @@ const legalDocuments={
   "ru": [
     [
       "Ваша ответственность",
-      "VRStreamConrtent передаёт изображение и звук. Вы отвечаете за контент, необходимые права, согласие людей, чьи данные или голос передаёте, соблюдение закона и правил YouTube и VRChat. Не нарушайте чужие права."
+      "VRStreamContent передаёт изображение и звук. Вы отвечаете за контент, необходимые права, согласие людей, чьи данные или голос передаёте, соблюдение закона и правил YouTube и VRChat. Не нарушайте чужие права."
     ],
     [
       "Ответственность автора",
@@ -92,7 +92,7 @@ const legalDocuments={
   "ja": [
     [
       "利用者の責任",
-      "VRStreamConrtentは映像と音声を共有します。配信内容、必要な権利、個人情報や音声を共有する相手の同意、法律およびYouTube・VRChatの規則の遵守は利用者の責任です。他者の権利を侵害しないでください。"
+      "VRStreamContentは映像と音声を共有します。配信内容、必要な権利、個人情報や音声を共有する相手の同意、法律およびYouTube・VRChatの規則の遵守は利用者の責任です。他者の権利を侵害しないでください。"
     ],
     [
       "作者の責任の制限",
@@ -122,7 +122,7 @@ const legalDocuments={
   "de": [
     [
       "Deine Verantwortung",
-      "VRStreamConrtent überträgt Bild und Ton. Du bist für Inhalte, erforderliche Rechte, die Zustimmung betroffener Personen sowie die Einhaltung von Gesetzen und Dienstregeln einschließlich YouTube und VRChat verantwortlich. Verletze keine Rechte anderer."
+      "VRStreamContent überträgt Bild und Ton. Du bist für Inhalte, erforderliche Rechte, die Zustimmung betroffener Personen sowie die Einhaltung von Gesetzen und Dienstregeln einschließlich YouTube und VRChat verantwortlich. Verletze keine Rechte anderer."
     ],
     [
       "Haftung des Autors",
@@ -152,7 +152,7 @@ const legalDocuments={
   "fr": [
     [
       "Votre responsabilité",
-      "VRStreamConrtent partage l’image et le son. Vous êtes responsable du contenu, des droits nécessaires, du consentement des personnes dont vous partagez les données ou la voix, et du respect des lois et des règles de YouTube et VRChat. Ne portez pas atteinte aux droits d’autrui."
+      "VRStreamContent partage l’image et le son. Vous êtes responsable du contenu, des droits nécessaires, du consentement des personnes dont vous partagez les données ou la voix, et du respect des lois et des règles de YouTube et VRChat. Ne portez pas atteinte aux droits d’autrui."
     ],
     [
       "Responsabilité de l’auteur",
@@ -182,7 +182,7 @@ const legalDocuments={
   "ko": [
     [
       "사용자 책임",
-      "VRStreamConrtent는 영상과 소리를 공유합니다. 콘텐츠, 필요한 권리, 개인정보나 음성을 공유하는 사람의 동의, 법률 및 YouTube·VRChat 규칙 준수는 사용자의 책임입니다. 타인의 권리를 침해하지 마세요."
+      "VRStreamContent는 영상과 소리를 공유합니다. 콘텐츠, 필요한 권리, 개인정보나 음성을 공유하는 사람의 동의, 법률 및 YouTube·VRChat 규칙 준수는 사용자의 책임입니다. 타인의 권리를 침해하지 마세요."
     ],
     [
       "개발자 책임의 제한",
@@ -212,7 +212,7 @@ const legalDocuments={
   "zh": [
     [
       "用户责任",
-      "VRStreamConrtent用于分享画面和声音。您负责内容、必要授权、被分享个人信息或声音的相关人员同意，以及遵守法律和YouTube、VRChat规则。请勿侵犯他人权利。"
+      "VRStreamContent用于分享画面和声音。您负责内容、必要授权、被分享个人信息或声音的相关人员同意，以及遵守法律和YouTube、VRChat规则。请勿侵犯他人权利。"
     ],
     [
       "作者责任限制",
