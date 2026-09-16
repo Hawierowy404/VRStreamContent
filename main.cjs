@@ -18,7 +18,10 @@ async function stopAudio(){const previous=appAudio;appAudio=null;await previous?
 let win,active,selected,busy=false,blocker=null;
 const diagnostics=new Diagnostics();
 function releasePower(){if(blocker!==null&&powerSaveBlocker.isStarted(blocker))powerSaveBlocker.stop(blocker);blocker=null;}
-app.setName('VRStreamConrtent');
+// Keep existing accounts, preferences and audio recovery data after renaming.
+const legacyProfile=path.join(app.getPath('appData'),'VRStreamConrtent');
+if(fs.existsSync(legacyProfile))app.setPath('userData',legacyProfile);
+app.setName('VRStreamContent');
 if(!app.requestSingleInstanceLock())app.quit();
 app.whenReady().then(()=>{
   policy=new Policy(app.getPath('userData'));
@@ -27,7 +30,7 @@ app.whenReady().then(()=>{
   recovery=AppAudio.recover(audioExe,path.join(app.getPath('userData'),'audio-routing.json'),audioEvent);
   outputJournal=path.join(app.getPath('userData'),'system-output.json');
   void restoreOutput();
-  win=new BrowserWindow({width:1180,height:930,minWidth:900,minHeight:760,backgroundColor:'#10131d',title:'VRStreamConrtent',icon:path.join(__dirname,'assets','app.ico'),autoHideMenuBar:true,
+  win=new BrowserWindow({width:1180,height:930,minWidth:900,minHeight:760,backgroundColor:'#10131d',title:'VRStreamContent',icon:path.join(__dirname,'assets','app.ico'),autoHideMenuBar:true,
     webPreferences:{preload:path.join(__dirname,'preload.cjs'),contextIsolation:true,nodeIntegration:false,sandbox:true,backgroundThrottling:false}});
   win.webContents.setWindowOpenHandler(()=>({action:'deny'}));
   win.webContents.on('will-navigate',event=>event.preventDefault());
