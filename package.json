@@ -1,5 +1,5 @@
 {
-  "name": "vrstreamconrtent",
+  "name": "vrstreamcontent",
   "version": "1.4.0",
   "description": "Udostępnianie ekranu z dźwiękiem do VRChat",
   "main": "main.cjs",
@@ -24,7 +24,7 @@
     "@electron/packager": "^20.3.0",
     "electron": "^44.0.0"
   },
-  "productName": "VRStreamConrtent",
+  "productName": "VRStreamContent",
   "engines": {
     "node": ">=22.12.0"
   }
