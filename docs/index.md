@@ -1,8 +1,8 @@
 ---
-title: VRStreamConrtent
+title: VRStreamContent
 ---
 
-# VRStreamConrtent
+# VRStreamContent
 
 Share your screen. Watch together in VR.
 
@@ -18,7 +18,7 @@ A Windows desktop application for sharing your screen or an application window w
 
 ## Getting started
 
-Find available Windows builds in [Releases](https://github.com/Hawierowy404/VRStreamConrtent/releases). Extract the whole ZIP and run VRStreamConrtent.exe. Connect your own YouTube account, choose a source and start streaming. Keep the app running during the broadcast.
+Find available Windows builds in [Releases](https://github.com/Hawierowy404/VRStreamContent/releases). Extract the whole ZIP and run VRStreamContent.exe. Connect your own YouTube account, choose a source and start streaming. Keep the app running during the broadcast.
 
 Enable live streaming on your YouTube channel first and wait for any activation period shown by YouTube. Google sign-in is currently limited to approved testers while public access is being prepared.
 
@@ -28,7 +28,7 @@ A compatible VRChat world and player are required. Latency depends on YouTube, t
 
 [Privacy policy and terms of use](privacy.html)
 
-[Source code](https://github.com/Hawierowy404/VRStreamConrtent) · [Discord support](https://discord.gg/PMHqaPFdT)
+[Source code](https://github.com/Hawierowy404/VRStreamContent) · [Discord support](https://discord.gg/PMHqaPFdT)
 
 Contact: [hawierowsky@gmail.com](mailto:hawierowsky@gmail.com)
 
