@@ -2,7 +2,6 @@
 layout: null
 title: VRStreamContent — Share your screen. Watch together.
 ---
-<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
