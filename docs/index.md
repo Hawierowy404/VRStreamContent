@@ -1,35 +1,47 @@
 ---
-title: VRStreamContent
+layout: null
+title: VRStreamContent — Share your screen. Watch together.
 ---
-
-# VRStreamContent
-
-Share your screen. Watch together in VR.
-
-A Windows desktop application for sharing your screen or an application window with audio through your own YouTube account, then copying the link into a compatible VRChat video player.
-
-## Features
-
-- Screen or window capture with audio controls.
-- Up to 4K resolution and separate frame-rate selection.
-- Ultra-low, low or normal YouTube latency modes, subject to resolution limits.
-- Change the shared window during a live broadcast.
-- Eight languages and light, dark and RGB themes.
-
-## Getting started
-
-Find available Windows builds in [Releases](https://github.com/Hawierowy404/VRStreamContent/releases). Extract the whole ZIP and run VRStreamContent.exe. Connect your own YouTube account, choose a source and start streaming. Keep the app running during the broadcast.
-
-Enable live streaming on your YouTube channel first and wait for any activation period shown by YouTube. Google verification is pending. Sign-in may show an unverified-app warning and is subject to Google's user limits.
-
-A compatible VRChat world and player are required. Latency depends on YouTube, the network and the receiving player; no exact delay is guaranteed. Anyone with an unlisted link may watch or share it.
-
-## Privacy, terms and support
-
-[Privacy policy and terms of use](privacy.html)
-
-[Source code](https://github.com/Hawierowy404/VRStreamContent) · [Discord support](https://discord.gg/PMHqaPFdT)
-
-Contact: [hawierowsky@gmail.com](mailto:hawierowsky@gmail.com)
-
-Independent application, not affiliated with Google, YouTube or VRChat.
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="VRStreamContent is a Windows app for sharing your screen and audio through YouTube and watching together in compatible VRChat worlds.">
+<title>VRStreamContent — Watch together.</title>
+<style>
+:root{color-scheme:dark;--bg:#090911;--panel:#141420;--ink:#f4f1ff;--muted:#aaa6bb;--accent:#b79aff;--line:#303042}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 system-ui,-apple-system,Segoe UI,sans-serif}a{color:var(--accent);text-underline-offset:4px}a:focus-visible,summary:focus-visible{outline:3px solid #e5d9ff;outline-offset:5px}header,main,footer{max-width:1160px;margin:auto;padding:0 28px}header{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:90px;border-bottom:1px solid var(--line)}.brand{font-size:20px;font-weight:800;color:var(--ink);text-decoration:none;letter-spacing:-.6px}.brand span{color:var(--accent)}nav{display:flex;gap:24px;flex-wrap:wrap}nav a{color:var(--muted);text-decoration:none;font-size:14px}.hero{display:grid;grid-template-columns:1.15fr 1fr;gap:55px;align-items:center;padding:100px 0 75px}.eyebrow{color:var(--accent);font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase}h1{font-size:clamp(46px,6vw,76px);line-height:1.05;letter-spacing:-3px;margin:20px 0 26px}h1 span{color:var(--accent)}p{color:var(--muted)}.lead{font-size:18px;max-width:550px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin:30px 0 18px}.button{display:inline-block;border:1px solid var(--line);border-radius:12px;padding:12px 20px;text-decoration:none;font-weight:650;color:var(--ink)}.primary{background:var(--accent);color:#170b31;border-color:var(--accent)}.small{font-size:13px}.preview{background:linear-gradient(140deg,#211a39,#10101c);border:1px solid #53416e;border-radius:24px;padding:25px;box-shadow:0 0 80px #8b5cf61c;transform:rotate(-2deg)}.preview-title{display:flex;justify-content:space-between;gap:16px;font-size:12px;color:var(--muted)}.screen{aspect-ratio:16/10;display:grid;place-content:center;text-align:center;border-radius:14px;margin:20px 0;background:radial-gradient(ellipse at 50% 80%,#7145ba55,transparent 65%),#0c0b15;border:1px solid var(--line)}.screen strong{font-size:60px;letter-spacing:-6px;color:var(--accent)}.screen p{margin:0;font-size:14px}.flow{display:flex;justify-content:space-between;gap:8px;color:#d5c9ed;font-size:12px}.notice{border-left:3px solid var(--accent);padding:16px 22px;background:#181322;border-radius:0 12px 12px 0;color:#cec3df;font-size:14px}.section{padding:65px 0;border-bottom:1px solid var(--line)}h2{font-size:34px;line-height:1.2;letter-spacing:-1px;margin:12px 0 28px}h3{font-size:18px;margin:0 0 10px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--panel);border:1px solid var(--line);padding:26px;border-radius:16px}.card p{margin:0;font-size:14px}.number{display:block;color:var(--accent);font-size:13px;margin-bottom:20px;font-weight:700}.two{grid-template-columns:1fr 1fr}.card ul{padding-left:20px;color:var(--muted);font-size:14px}.download{background:linear-gradient(130deg,#261c3c,#13131f);padding:36px;border:1px solid #4d3a68;border-radius:20px}.download h2{margin-top:0}details{border-bottom:1px solid var(--line);padding:20px 0}summary{cursor:pointer;font-weight:650}details p{max-width:850px;font-size:15px}.contact{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}footer{padding-top:32px;padding-bottom:40px;color:var(--muted);font-size:12px}footer a{margin-right:16px} @media(max-width:760px){header{padding-top:20px;padding-bottom:20px;flex-direction:column;align-items:flex-start}.hero{grid-template-columns:1fr;padding:55px 0;gap:35px}.preview{transform:none}.grid,.two{grid-template-columns:1fr}h1{letter-spacing:-2px}nav{gap:18px}.section{padding:42px 0}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><a class="brand" href="./">VRStream<span>Content</span></a><nav aria-label="Main navigation"><a href="#features">Features</a><a href="#start">Get started</a><a href="#download">Download</a><a href="#help">Help</a><a href="privacy.html">Privacy</a></nav></header>
+<main>
+<section class="hero"><div><div class="eyebrow">Your screen. Your people.</div><h1>Share a moment.<br><span>Watch together.</span></h1><p class="lead">Bring your screen and audio into VRChat. Stream through your own YouTube account and share one link with your friends.</p><div class="buttons"><a class="button primary" href="#download">Download for Windows ↗</a><a class="button" href="#start">How it works</a></div><p class="small">Windows desktop app · Up to 4K · Your own YouTube channel</p></div>
+<div class="preview" aria-label="Illustration of the screen sharing workflow"><div class="preview-title"><span>VRStreamContent</span><span>SCREEN → YOUTUBE → VR</span></div><div class="screen"><strong>VR</strong><p>A shared screen.<br>A shared experience.</p></div><div class="flow"><span>01 Choose a window</span><span>02 Go live</span><span>03 Share the link</span></div></div></section>
+<aside class="notice"><strong>Before you connect:</strong> Google OAuth verification is still pending. Google may limit sign-in or display an unverified-app warning. Download availability does not mean Google has approved the integration.</aside>
+<section class="section" id="features"><div class="eyebrow">Made for watching together</div><h2>Your live, your controls.</h2><div class="grid">
+<article class="card"><h3>Screen or window</h3><p>Choose what you share and switch the shared window during a live broadcast.</p></article>
+<article class="card"><h3>Up to 4K</h3><p>Select resolution and frame rate to suit your computer and upload connection.</p></article>
+<article class="card"><h3>Audio controls</h3><p>Adjust the sound your audience hears and manage audio outputs from the app.</p></article>
+<article class="card"><h3>Latency options</h3><p>Select YouTube ultra-low, low or normal latency where supported. Actual delay also depends on the receiving player.</p></article>
+<article class="card"><h3>Make it yours</h3><p>Choose from eight languages and light, dark or RGB appearance options.</p></article>
+<article class="card"><h3>Your YouTube account</h3><p>Each broadcaster connects their own channel. Share the resulting unlisted viewing link with friends.</p></article>
+</div></section>
+<section class="section" id="start"><div class="eyebrow">Getting started</div><h2>From desktop to your world.</h2><div class="grid">
+<article class="card"><span class="number">01 / PREPARE</span><h3>Enable YouTube live</h3><p>Open <a href="https://studio.youtube.com/">YouTube Studio</a> on your own account and enable live streaming. Complete any verification and wait for the activation period shown by YouTube.</p></article>
+<article class="card"><span class="number">02 / BROADCAST</span><h3>Connect and start</h3><p>Extract the complete download, run VRStreamContent.exe and connect your YouTube account. Choose a screen or window, set audio and quality, then start your live.</p></article>
+<article class="card"><span class="number">03 / WATCH</span><h3>Copy your link</h3><p>Paste the link into a compatible VRChat video player. Keep VRStreamContent and your computer running while you broadcast.</p></article>
+</div></section>
+<section class="section" id="download"><div class="download"><div class="eyebrow">Windows download</div><h2>Ready for your next watch party?</h2><p>Get the published Windows package from the official GitHub release. Extract all files together before launching the application.</p><div class="buttons"><a class="button primary" href="https://github.com/Hawierowy404/VRStreamContent/releases/download/VRST/VRStreamContent-1.4.0-Windows.zip">Download Windows ZIP · 1.4.0</a><a class="button" href="https://github.com/Hawierowy404/VRStreamContent/releases">Release notes &amp; downloads</a></div><p class="small">Internet access, an eligible YouTube channel and a compatible VRChat world/player are required. Only share content you have permission to broadcast.</p></div></section>
+<section class="section" id="help"><div class="eyebrow">Good to know</div><h2>A few answers before you go live.</h2>
+<details><summary>Can people on standalone Quest watch?</summary><p>Playback depends on the world's Android/Quest video player and whether it supports the generated YouTube live link. A link working on PC does not guarantee it will work in every Quest world.</p></details>
+<details><summary>Will there be a delay?</summary><p>Yes. YouTube processes the live stream and the VRChat player can add buffering. The app offers latency modes, but cannot guarantee a specific delay. Higher resolutions can restrict the available low-latency options.</p></details>
+<details><summary>Is an unlisted broadcast private?</summary><p>Anyone who obtains the link may be able to watch and forward it. Unlisted is not password protection. Review your screen before broadcasting, and manage any saved recording in YouTube Studio afterward.</p></details>
+<details><summary>YouTube says live streaming is not enabled. What now?</summary><p>Enable live streaming in YouTube Studio for the connected channel. If YouTube displays an activation countdown, wait until it finishes before starting a live from VRStreamContent.</p></details>
+<details><summary>Why does a captured video appear black?</summary><p>Some services protect playback from screen capture. VRStreamContent does not remove those protections. Try content you are permitted to share and check the local preview before starting.</p></details>
+<details><summary>How do I disconnect my Google account?</summary><p>Use the application's disconnect option to remove the saved local credentials and attempt to revoke access. You can also revoke permission in <a href="https://myaccount.google.com/permissions">your Google account</a>. Disconnecting does not delete recordings on YouTube.</p></details>
+</section>
+<section class="section"><div class="grid two"><article class="card"><h3>Understand your data</h3><p>The YouTube integration sends your selected media directly to YouTube. Saved account credentials are encrypted locally on Windows. Read the full policy for data access, sharing, security and deletion details.</p><p style="margin-top:18px"><a href="privacy.html">Privacy policy &amp; terms →</a></p></article><article class="card"><h3>Built in the open</h3><p>Browse the application source and published releases on GitHub. This is an independent project, not affiliated with or endorsed by Google, YouTube or VRChat.</p><p style="margin-top:18px"><a href="https://github.com/Hawierowy404/VRStreamContent">Explore the repository →</a></p></article></div></section>
+<section class="section contact"><div><div class="eyebrow">Need a hand?</div><h2>Let's get you connected.</h2><p>For app help, join Discord or email <a href="mailto:hawierowsky@gmail.com">hawierowsky@gmail.com</a>.<br>Review diagnostics before sharing. Never send passwords, tokens or stream keys.</p></div><a class="button" href="https://discord.gg/PMHqaPFdT">Discord support ↗</a></section>
+</main><footer><p><strong>VRStreamContent</strong> · Independent screen-sharing application.</p><a href="privacy.html">Privacy &amp; terms</a><a href="https://www.youtube.com/t/terms">YouTube terms</a><a href="https://policies.google.com/privacy">Google privacy</a></footer>
+</body></html>
